@@ -17,6 +17,9 @@ dependencies = [
 [project.scripts]
 mcp-terminal-server = "terminal_server:run"
 
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
