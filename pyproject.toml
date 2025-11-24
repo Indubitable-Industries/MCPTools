@@ -1,0 +1,22 @@
+[project]
+name = "mcp-terminal-server"
+version = "0.1.0"
+description = "MCP terminal server with permission buckets and override controls"
+authors = [
+    { name = "Indubitable Industries" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = [
+    "mcp[cli]",
+    "pexpect",
+    "python-dotenv"
+]
+
+[project.scripts]
+mcp-terminal-server = "terminal_server:run"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

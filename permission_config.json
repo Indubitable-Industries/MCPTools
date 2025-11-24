@@ -1,0 +1,22 @@
+{
+  "always_allow": [
+    "ls", "cat", "grep", "find", "pwd", "echo", "date", "whoami",
+    "head", "tail", "wc", "sort", "uniq", "cut", "awk", "sed",
+    "df", "du", "ps", "which", "env", "printenv", "uname", "hostname"
+  ],
+  "always_ask": [
+    "rm", "rmdir", "dd", "shred", "mkfs", "fdisk", "parted",
+    "chmod", "chown", "chgrp", "usermod", "groupmod",
+    "systemctl", "service", "kill", "killall", "pkill",
+    "nc", "netcat", "nmap", "tcpdump", "iptables"
+  ],
+  "always_block": [
+    "vim", "vi", "nvim", "nano", "emacs", "pico", "joe",
+    "less", "more", "man", "info",
+    "top", "htop", "iotop", "iftop", "nethogs", "glances",
+    "tmux", "screen", "byobu",
+    "mc", "ranger", "nnn", "vifm", "ncdu",
+    "nohup", "disown", "setsid", "daemon",
+    "bash", "sh", "zsh", "fish", "dash", "tcsh", "csh"
+  ]
+}
